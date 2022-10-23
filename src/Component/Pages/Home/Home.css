@@ -1,0 +1,13 @@
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 15, 15);
+}
+
+.caro-p{
+    color: rgb(223, 235, 233);
+    background-color:rgba(21, 22, 22, 0.368);
+}
+

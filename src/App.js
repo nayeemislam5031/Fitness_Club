@@ -1,16 +1,14 @@
-
+import './App.css'
 import Navigatin from './Component/Navbar/Navigatin';
-
 import React from "react";
 // import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route,Routes } from "react-router-dom";
-
-import About from './Component/Pages/About';
-import WBF from './Component/Pages/WBF';
-import Programs from './Component/Pages/Programs';
-import Stories from './Component/Pages/Stories';
+import About from './Component/Pages/About/About';
+import WBF from './Component/Pages/WBF/WBF';
+import Programs from './Component/Pages/Program/Programs';
+import Stories from './Component/Pages/Stories/Stories';
 import Contact from './Component/Pages/Contact';
-import Home from './Component/Pages/Home';
+import Home from './Component/Pages/Home/Home';
 
 function App() {
   return (
