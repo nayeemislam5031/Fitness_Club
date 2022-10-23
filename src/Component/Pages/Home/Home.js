@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import Programs from '../Program/Programs';
 import Breffing from './Breffing';
 import Caro from './Caro';
 import './Home.css'
@@ -18,6 +19,7 @@ const Home = () => {
       </div>
       <Caro></Caro>
       <Breffing></Breffing>
+      <Programs></Programs>
       
     </Container>
   );

@@ -1,7 +1,11 @@
 .row{
     display:flex;
     align-items: center;
-    justify-content: Space-between;
+    /* justify-content: Space-between; */
     text-align: Center;
     
+}
+
+.detail{
+    text-align:left;
 }

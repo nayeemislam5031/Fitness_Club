@@ -1,10 +1,11 @@
 import React from 'react'
 import {  } from 'react-bootstrap';
+import './Progrm.css'
 
 const Into = () => {
   return (
-    <div >
-      <h1>Our Programs</h1>
+    <div className="m-4 p-4" >
+      <h1 className="title"><strong>Our Programs</strong> </h1>
       <section>
         <p>
           Our Semi-Private and Private Training programs combine Coached Days
