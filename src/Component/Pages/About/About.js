@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import { Row, Form, Button } from "react-bootstrap";
 import { Col } from 'react-bootstrap';
-import Fade from "react-reveal/Fade";
+import { Slide } from "react-reveal";
 import image from '../../../assets/Workout.svg';
 
 
@@ -58,7 +58,7 @@ const About = () => {
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
               >
-                <Form.Label>Example textarea</Form.Label>
+                <Form.Label>Explanation</Form.Label>
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
 
@@ -76,9 +76,9 @@ const About = () => {
           </Col>
 
           <Col lg="5" className="justify-content-md-center p-4 m-4 ">
-            <Fade left className="svg">
+            <Slide  left className="svg">
               <img src={image} alt="" />
-            </Fade>
+            </Slide>
           </Col>
         </Row>
       </Container>

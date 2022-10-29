@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import Programs from '../Program/Programs';
-import Stories from '../Stories/Stories';
+
 import Breffing from './Breffing';
 import Caro from './Caro';
 import './Home.css'
@@ -27,7 +27,7 @@ const Home = () => {
       <Caro></Caro>
       <Breffing></Breffing>
       <Programs></Programs>
-      <Stories></Stories>
+      
       </div>
       
     </Container>
