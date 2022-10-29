@@ -10,13 +10,12 @@ import Stories from './Component/Pages/Stories/Stories';
 
 import Home from './Component/Pages/Home/Home';
 import Footer from './Component/Footer/Footer';
+import Error from './Component/Error/Error';
 
 function App() {
   return (
     <BrowserRouter>
-      <Navigatin></Navigatin>
-
-      <div>
+      <Navigatin></Navigatin>      
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
@@ -24,8 +23,9 @@ function App() {
           <Route path="/programs" element={<Programs />} />
           <Route path="/stories" element={<Stories />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<Error />} />
         </Routes>
-      </div>
+      
       <Footer></Footer>
     </BrowserRouter>
   );
