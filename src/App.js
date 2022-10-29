@@ -18,12 +18,12 @@ function App() {
 
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
           <Route path="/wbfway" element={<WBF />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/stories" element={<Stories />} />
           <Route path="/about" element={<About />} />
-          
         </Routes>
       </div>
       <Footer></Footer>

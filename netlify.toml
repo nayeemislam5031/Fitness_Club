@@ -1,0 +1,9 @@
+[[redirect]]
+from = "/*"
+to = "/public/index.html"
+status = 200
+
+[build]
+command = "npm run build "
+publish = "/build"
+base = "/"
