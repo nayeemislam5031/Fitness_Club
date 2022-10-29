@@ -2,8 +2,10 @@
     color: #fff;
     width: 100%;
     
+    background-color: rgba(49, 48, 48, 0.508);
     
 }
+
 
 .info{
     display:flex;
@@ -11,8 +13,19 @@
     align-items: center;
     justify-content: center;
     text-align:center;
-    background-color:rgba(49, 48, 48, 0.508);
     height: 150px;
+}
+
+.btn-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+
+.icon{
+    color: #fff!important;
 }
 .btngroup{
        height: 100px;
@@ -25,6 +38,6 @@
 
 .button{
     /* background-color:#fff */
-    margin: 5px;
-    border-radius: 50%  !important;
+    
+    border-radius: 5%  !important;
 }

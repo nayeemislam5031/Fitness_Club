@@ -3,8 +3,6 @@ import {  Carousel } from "react-bootstrap";
 import './Home.css'
 import caro_pic1 from "../../../assets/GirlPush.jpg"
 import caro_pic2 from "../../../assets/Man_Subaling.jpg"
-import caro_pic3 from "../../../assets/Girl_Dumbleing.jpg"
-import caro_pic4 from "../../../assets/ManBlack.jpg"
 import caro_pic5 from "../../../assets/girl.jpg"
 import caro_pic6 from "../../../assets/Man.jpg"
 

@@ -1,7 +1,7 @@
-import React from 'react'
-import './Navigation.css'
+import React from 'react';
+import './Navigation.css';
 import { Navbar,Container,Nav } from "react-bootstrap";
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.png';
 
 // import ReactDOM from "react-dom/client";
 import { Link } from "react-router-dom";

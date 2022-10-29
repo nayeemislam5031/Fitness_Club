@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from 'react-bootstrap';
 import './Breefing.css'
 
 
 const Breffing = () => {
   return (
-    <div className="brif p-4">
+    <Container fluid className="brif p-4">
       <header className="">
         <h1>When You Get Serious About Getting Fit</h1>
       </header>
@@ -66,7 +67,7 @@ const Breffing = () => {
         </p>
         
       </section>
-    </div>
+    </Container>
   );
 }
 

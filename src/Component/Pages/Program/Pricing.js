@@ -1,16 +1,20 @@
 import React from 'react'
 import { Container, Row, Col, Accordion } from "react-bootstrap";
+import { Fade } from 'react-reveal';
 import './pricing.css'
 const Pricing = () => {
   return (
-    <Container className="m-4 price">
+    <Container className="m-4 price fluid">
       <Row className="m-4 pt-4">
-        <h1 className=" title">
+        <Fade right>
+          <h1 className=" title">
           <strong>Pricing</strong>
         </h1>
+        </Fade>
+        
       </Row>
       <Row className="justify-content-md-center pb-4">
-        <Col sm xs lg="8">
+        <Col sm xs lg="8" >
           <Accordion defaultActiveKey={["0"]} alwaysOpen>
             <Accordion.Item eventKey="0">
               <Accordion.Header>Private Training</Accordion.Header>

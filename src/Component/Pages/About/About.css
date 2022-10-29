@@ -1,0 +1,11 @@
+.from{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.svg:hover{
+    transform: rotateX(180deg);
+}

@@ -6,12 +6,12 @@ import Types from'./Types'
 import Pricing from './Pricing';
 const Programs = () => {
   return (
-    <Container>
-      <Intro/>
-      <Types/>
-      <Pricing/>
+    <Container fluid>
+      <Intro />
+      <Types />
+      <Pricing />
     </Container>
-  )
+  );
 }
 
 export default Programs
