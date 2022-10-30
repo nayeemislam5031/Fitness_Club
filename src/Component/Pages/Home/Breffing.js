@@ -5,7 +5,7 @@ import './Breefing.css'
 
 const Breffing = () => {
   return (
-    <Container fluid className="brif p-4">
+    <Container fluid className=" p-4">
       <header className="">
         <h1>When You Get Serious About Getting Fit</h1>
       </header>
