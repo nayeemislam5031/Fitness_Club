@@ -20,7 +20,7 @@ const Stories = () => {
       </Row>
       <Row xs={1} md={2} lg={3} className="g-4 m-4">
         {MOCK_DATA.map((mocData) => {
-          const { id, title, image, discription } = mocData;
+          const {  title, image, discription } = mocData;
 
           return (
             <Col className="story">
