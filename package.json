@@ -35,6 +35,10 @@
       "react-app/jest"
     ]
   },
+  
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
