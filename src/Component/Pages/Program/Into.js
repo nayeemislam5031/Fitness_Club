@@ -5,19 +5,19 @@ import Tada from "react-reveal/Tada";
 
 const Into = () => {
   return (
-    <div className="m-4 p-4" >
+    <div className="m-4 p-4"  >
       <Tada>
         <h1 className="title mb-4"><strong>Our Programs</strong> </h1>
       </Tada>
       
-      <section>
+      <section >
         <p>
           Our Semi-Private and Private Training programs combine Coached Days
           and Independent Days for a comprehensive fitness program. This is how
           it works:
         </p>
         <br />
-        <p>
+        <p align="left">
           
           <li>
             Trainer Days - Two to four days per week (depending on your plan)

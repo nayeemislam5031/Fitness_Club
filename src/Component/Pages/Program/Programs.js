@@ -6,7 +6,7 @@ import Types from'./Types'
 import Pricing from './Pricing';
 const Programs = () => {
   return (
-    <Container fluid>
+    <Container align="center">
       <Intro />
       <Types />
       <Pricing />
